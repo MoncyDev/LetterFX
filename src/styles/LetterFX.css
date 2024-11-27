@@ -1,0 +1,20 @@
+.letter-lbl {
+  transition: 0.5s;
+  display: inline-block;
+  text-align: start;
+}
+.lbl-animate-down {
+  transform: translateY(100%);
+}
+.lbl-animate-up {
+  transform: translateY(-100%);
+}
+
+.lbl-div {
+  display: inline-block;
+}
+
+.lbl-animate {
+  opacity: 1;
+  transform: translate(0px);
+}
