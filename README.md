@@ -41,6 +41,8 @@ You can directly use LetterFX in your ptoject using a CDN link
 
 Git Repository: https://github.com/MoncyDev/LetterFX/
 
+---
+
 ## Basic Usage
 
 ```javascript
@@ -69,7 +71,9 @@ const letter = new LetterFX(".text", {
 <div class="text">LetterFX Animations</div>
 ```
 
-## Options
+---
+
+## Options:
 
 | Option       | Type    | Default                                  | Description                                             |
 | ------------ | ------- | ---------------------------------------- | ------------------------------------------------------- |
@@ -83,6 +87,8 @@ const letter = new LetterFX(".text", {
 | `interval`   | Number  | `4000`                                   | Time interval between loop cycles (in ms).              |
 | `opacity`    | Number  | `0`                                      | Initial opacity of letters during animation.            |
 | `blur`       | String  | `"0px"`                                  | Initial blur of letters during animation.               |
+
+---
 
 ## License
 
